@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LULU_Model_DLL
+namespace LULU.Model
 {
     using System;
     using System.Collections.Generic;
@@ -15,7 +15,6 @@ namespace LULU_Model_DLL
     public abstract partial class Login
     {
         public int LoginID { get; set; }
-        public System.DateTime LoginDate { get; set; }
-        public System.TimeSpan LoginTime { get; set; }
+        public System.DateTime LoginDateAndTime { get; set; }
     }
 }

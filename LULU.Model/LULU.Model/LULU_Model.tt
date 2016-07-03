@@ -2,7 +2,7 @@
 <#@ include file="EF6.Utility.CS.ttinclude"#><#@ 
  output extension=".cs"#><#
 
-const string inputFile = @"LULU_Model.edmx";
+const string inputFile = @"C:\Users\DynamicDuo\Source\Repos\LULU_Model_DLL\LULU_Model_DLL\LULU_Model_DLL\LULU_Model.edmx";
 var textTransform = DynamicTextTransformation.Create(this);
 var code = new CodeGenerationTools(this);
 var ef = new MetadataTools(this);

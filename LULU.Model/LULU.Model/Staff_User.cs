@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LULU_Model_DLL
+namespace LULU.Model
 {
     using System;
     using System.Collections.Generic;
